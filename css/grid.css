@@ -1,0 +1,6 @@
+.paginaPrincipal{
+    display: grid;
+    grid-template-areas: "imagen"
+    "titulo"
+    "contenidopagina";
+}
