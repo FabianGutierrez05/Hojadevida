@@ -1,0 +1,28 @@
+.cabezera{
+    display:grid;
+    grid-template-columns: 30%;
+    grid-template-rows: 100px 50%;
+
+    grid-gap:20px calc(100vh - 300px);
+    
+    justify-content: center;
+}   
+.cabezera h1{
+    width: 90%;
+    height: 90%;
+    display:flex;
+    background-color: rgb(78, 246, 246);
+    justify-content: center;
+    align-items: center;
+    border: 100% black;
+}
+.cabezera img{
+    width: 90%;
+    height: 90%;
+    display:flex;
+    background-color: rgb(7, 60, 60);
+    justify-content: center;
+    align-items: center;
+
+}
+

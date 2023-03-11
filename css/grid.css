@@ -1,6 +1,22 @@
+body{
+    background-color: rgb(194, 253, 234);
+}
 .paginaPrincipal{
     display: grid;
     grid-template-areas: "imagen"
     "titulo"
     "contenidopagina";
+    grid-template-columns: 200px  200px 200px 200px 200px ;
+    grid-template-rows: 100px 100px;
+    grid-gap: 100px;
+}
+.paginaPrincipal h2{
+    width: 100%;
+    background-color: #18b9d5;
+    border: 200% rgb(0, 0, 0);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
