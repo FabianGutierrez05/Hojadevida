@@ -13,10 +13,17 @@ body{
 .paginaPrincipal h2{
     width: 100%;
     background-color: #18b9d5;
+    border-style: solid;
     border: 200% rgb(0, 0, 0);
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+.paginaPrincipal p{
+    border-style: groove;
+    border: 100% rgb(203, 15, 15);
+    justify-content: center;
+    align-items: center;
 }
